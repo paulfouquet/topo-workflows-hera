@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "topo-workflows-hera"
+version = "0.1.0"
+description = "Manage topo-workflows using Hera"
+authors = ["Paul Fouquet <pfouquet@linz.govt.nz>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+hera = "^5.17.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
